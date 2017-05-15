@@ -43,6 +43,13 @@ RUN set -ex; \
 		patch \
 		xz-utils \
 		zlib1g-dev \
+		build-essential \
+    		devscripts \
+    		fakeroot \
+    		debhelper \
+    		automake \
+    		autotools-dev \
+    		pkg-config \
 		\
 # https://lists.debian.org/debian-devel-announce/2016/09/msg00000.html
 		$( \
