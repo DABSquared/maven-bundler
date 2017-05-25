@@ -46,6 +46,7 @@ RUN set -ex; \
 		build-essential \
     		devscripts \
     		fakeroot \
+		dh-make \
     		debhelper \
     		automake \
     		autotools-dev \
