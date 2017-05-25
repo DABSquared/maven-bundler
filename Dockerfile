@@ -47,6 +47,8 @@ RUN set -ex; \
     		devscripts \
     		fakeroot \
 		dh-make \
+		pbuilder \
+		debootstrap \
     		debhelper \
     		automake \
     		autotools-dev \
